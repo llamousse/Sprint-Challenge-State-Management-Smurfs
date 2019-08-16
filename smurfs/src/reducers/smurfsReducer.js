@@ -29,7 +29,7 @@ export const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 isLoading: false,
-                error: 'Error: Could not retrieve data.'
+                error: 'Error: Could not GET/retrieve data.'
             };
         default:
             return state;
